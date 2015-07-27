@@ -3,7 +3,6 @@ library(jsonlite)
 library(twitteR)
 library(httr)
 library(stringr)
-library(data.table)
 
 ##### Twitter set-up ####
 ###twitter account parameters
@@ -14,7 +13,7 @@ access_token_secret <- "Access Token Secret"
 
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
-my.T <- function (term)
+my.tweet <- function (term)
 {  
 	s <- searchTwitter(term, resultType="mixed", n=200,since=as.character(Sys.Date()-1))
   #
