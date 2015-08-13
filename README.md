@@ -25,11 +25,6 @@ Open “TwitteR.bot.r” using any text editor set your hash tag search terms  a
     		my.tweet ("#bigdata")
 		## set time interval between tweets
 	        Sys.sleep(60*20) ## 20 minutes
-People tend and are recommended to use 2 hashtags in their tweet.
-
-For example,
-#bigdata term can be related also to #finTech or #mobile etc’.
-
 
 ## Make it Work
 * install R https://cran.r-project.org/
