@@ -9,12 +9,14 @@ Create twitter app under your twitter account (https://apps.twitter.com/)
 
 ## R Script Editing
 Downloaded the R code (GitHub)
- Open “TwitteR.bot.Setup.r”  using any text editor  and update the keys
-api_key <- "Consumer Key (API Key)"
-api_secret <- "Consumer Secret (API Secret)"
-access_token <- "Access Token"
-access_token_secret <- "Access Token Secret"
-	 The information available in the your Twitter app you created in step 1 under “Key and Access Tokens”.
+
+Open “TwitteR.bot.Setup.r”  using any text editor  and update the keys
+		api_key <- "Consumer Key (API Key)"
+		api_secret <- "Consumer Secret (API Secret)"
+		access_token <- "Access Token"
+		access_token_secret <- "Access Token Secret"
+
+The information available in the your Twitter app you created in step 1 under “Key and Access Tokens”.
 
 Open “TwitteR.bot.r” using any text editor set your hash tag search terms  and setup the time interval between tweets.
 		--add your term
