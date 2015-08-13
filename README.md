@@ -28,7 +28,7 @@ Open “TwitteR.bot.r” using any text editor set your hash tag search terms  a
 People tend and are recommended to use 2 hashtags in their tweet.
 
 For example,
-"#bigdata term can be related also to #finTech or #mobile etc’."
+#bigdata term can be related also to #finTech or #mobile etc’.
 
 
 ## Make it Work
