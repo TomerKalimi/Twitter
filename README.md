@@ -17,7 +17,7 @@ Open “TwitteR.bot.Setup.r”  using any text editor  and update the keys
 		access_token <- "Access Token"
 		access_token_secret <- "Access Token Secret"
 
-The information available in the your Twitter app you created in step 1 under “Key and Access Tokens”.
+The information available in the your Twitter app you created under “Key and Access Tokens”.
 
 Open “TwitteR.bot.r” using any text editor set your hash tag search terms  and setup the time interval between tweets.
 
